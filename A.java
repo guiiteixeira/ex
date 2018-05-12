@@ -1,23 +1,23 @@
 public class A{
 
-	private int a;
-	private int b;
+	private int A1;
+	private float A2;
 	private String A3;
 
-	public void setA(int a){
-		this.a = a;
+	public void setA1(int A1){
+		this.A1 = A1;
 	}
 
-	public void setB(int b){
-		this.b = b;
+	public void setA2(int A2){
+		this.A2 = A2;
 	}
 
-	public int getA(){
-		return this.a;
+	public int getA1(){
+		return this.A1;
 	}
 
-	public int getB(){
-		return this.b;
+	public int getA2(){
+		return this.A2;
 	}
 
 	public void setA3(String A3){
@@ -26,6 +26,10 @@ public class A{
 
 	public int getA3(){
 		return this.A3;
+	}
+
+	public float soma(){
+		return this.A1 + this.A3;
 	}
 
 }
